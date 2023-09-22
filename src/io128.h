@@ -61,7 +61,7 @@ void write128(__int128 n, std::ostream &out = std::cout)
 	
 	std::reverse(tmp.begin(), tmp.end());
 	
-	for (int i = 0; i < tmp.size(); i++)
+	for (unsigned int i = 0; i < tmp.size(); i++)
 	{
 		out << tmp[i];
 	}
